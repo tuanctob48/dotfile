@@ -1,0 +1,212 @@
+[options]
+allow_bold = true
+audible_bell = false
+clickable_url = true
+dynamic_title = true
+#font = Source Code Pro for Powerline 13
+font = Inconsolata-dz for Powerline 13
+#font = Noto Mono for Powerline 13
+#font = Fira Mono for Powerline 13
+#font = xos4 Terminess Powerline 12
+#font = Cousine for Powerline 13
+#fullscreen = true
+#geometry = 640x480
+icon_name = terminal
+mouse_autohide = true 
+#scroll_on_output = false
+#scroll_on_keystroke = true
+scrollback_lines = 10000
+#search_wrap = true
+#urgent_on_bell = true
+
+# $BROWSER is used by default if set, with xdg-open as a fallback
+browser = firefox 
+
+# "system", "on" or "off"
+cursor_blink = system
+
+# "block", "underline" or "ibeam"
+cursor_shape = block
+
+# Hide links that are no longer valid in url select overlay mode
+#filter_unmatched_urls = true
+
+# Emit escape sequences for extra modified keys
+#modify_other_keys = false
+
+# set size hints for the window
+#size_hints = false
+
+[colors]
+# If both of these are unset, cursor falls back to the foreground color,
+# and cursor_foreground falls back to the background color.
+cursor = #dcdccc
+cursor_foreground = #dcdccc
+
+foreground = #dcdccc
+foreground_bold = #ffffff
+#background = #3f3f3f
+
+# 20% background transparency (requires a compositor)
+background = rgba(63, 63, 63, 0.8)
+
+# If unset, will reverse foreground and background
+highlight = #2f2f2f
+
+# Colors from color0 to color254 can be set
+# monokai
+#[colors]
+# # special
+#  foreground      = #f1ebeb
+#  foreground_bold = #f1ebeb
+#  cursor          = #f1ebeb
+#  #background      = #272822
+#  
+#  # black
+#  color0  = #48483e
+#  color8  = #76715e
+#  
+#  # red
+#  color1  = #dc2566
+#  color9  = #fa2772
+#  
+#  # green
+#  color2  = #8fc029
+#  color10 = #a7e22e
+#  
+#  # yellow
+#  color3  = #d4c96e
+#  color11 = #e7db75
+#  
+#  # blue
+#  color4  = #55bcce
+#  color12 = #66d9ee
+#  
+#  # magenta
+#  color5  = #9358fe
+#  color13 = #ae82ff
+#  
+#  # cyan
+#  color6  = #56b7a5
+#  color14 = #66efd5
+#  
+#  # white
+#  color7  = #acada1
+#  color15 = #cfd0c2
+#  
+# special
+#foreground      = #586e75
+#foreground_bold = #586e75
+#cursor          = #586e75
+#background      = #fdf6e3
+# solarized light
+# # black
+# color0  = #002b36
+# color8  = #657b83
+# 
+# # red
+# color1  = #dc322f
+# color9  = #dc322f
+# 
+# # green
+# color2  = #859900
+# color10 = #859900
+# 
+# # yellow
+# color3  = #b58900
+# color11 = #b58900
+# 
+# # blue
+# color4  = #268bd2
+# color12 = #268bd2
+# 
+# # magenta
+# color5  = #6c71c4
+# color13 = #6c71c4
+# 
+# # cyan
+# color6  = #2aa198
+# color14 = #2aa198
+# 
+# # white
+# color7  = #93a1a1
+# color15 = #fdf6e3
+#
+#[colors] x-dotshare
+# 
+# # special
+# foreground      = #f1ebeb
+# foreground_bold = #f1ebeb
+# cursor          = #f1ebeb
+# #background      = #272822
+# 
+# # black
+# color0  = #48483e
+# color8  = #76715e
+# 
+# # red
+# color1  = #dc2566
+# color9  = #fa2772
+# 
+# # green
+# color2  = #8fc029
+# color10 = #a7e22e
+# 
+# # yellow
+# color3  = #d4c96e
+# color11 = #e7db75
+# 
+# # blue
+# color4  = #55bcce
+# color12 = #66d9ee
+# 
+# # magenta
+# color5  = #9358fe
+# color13 = #ae82ff
+# 
+# # cyan
+# color6  = #56b7a5
+# color14 = #66efd5
+# 
+# # white
+# color7  = #acada1
+# color15 = #cfd0c2
+[colors]
+
+ # special
+ foreground      = #f8f8f8
+ foreground_bold = #f8f8f8
+ cursor          = #f8f8f8
+ #background      = #171717
+ 
+ # black
+ color0  = #171717
+ color8  = #38252c
+ 
+ # red
+ color1  = #d81765
+ color9  = #ff0000
+ 
+ # green
+ color2  = #97d01a
+ color10 = #76b639
+ 
+ # yellow
+ color3  = #ffa800
+ color11 = #e1a126
+ 
+ # blue
+ color4  = #16b1fb
+ color12 = #289cd5
+ 
+ # magenta
+ color5  = #ff2491
+ color13 = #ff2491
+ 
+ # cyan
+ color6  = #0fdcb6
+ color14 = #0a9b81
+ 
+ # white
+ color7  = #ebebeb
+ color15 = #f8f8f8  
